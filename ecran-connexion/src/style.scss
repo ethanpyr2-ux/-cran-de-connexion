@@ -1,0 +1,96 @@
+$white-primary: #F1F1F1;
+
+$white-100: #F9F9F9;
+$white-200: #E2E2E2;
+$white-300: #ABABAB;
+$white-400: #919191;
+$white-500: #777777;
+$white-600: #5E5E5E;
+$white-700: #474747;
+$white-800: #303030;
+$white-900: #1B1B1B;
+$white-950: #111111;
+
+$blue-primary: #009AF0;
+
+$blue-50: #E9F1FF;
+$blue-100: #D3E4FF;
+$blue-200: #A1C9FF;
+$blue-300: #62B0FF;
+$blue-500: #007CC6;
+$blue-600: #00629E;
+$blue-700: #004A79;
+$blue-800: #003355;
+$blue-900: #001D34;
+$blue-950: #001223;
+
+
+$blue-gradient: linear-gradient(135deg, $blue-600 0%, $blue-300 100%);
+
+
+#connection-page {
+  font-family : 'Poppins', sans-serif;
+  background-color : $white-primary;
+  display : flex;
+  flex-direction : column;
+  height : 100vh;
+  margin : 0;
+  align-items: center;
+}
+nav {
+  width : 100%;
+  display : flex;
+  margin: 10px;
+  background-color: $white-primary;
+}
+.logo {
+  font-family : 'Playfair Display', serif;
+  background: $blue-gradient;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin : 20px;
+  margin-bottom: 20%;
+}
+#create-account {
+  color : $white-700;
+  margin : 20px;
+  margin-bottom: 40px;
+}
+.connection-section {
+  background-color : $white-100;
+  padding : 40px;
+  border-radius : 8px;
+  box-shadow : 0 4px 8px rgba(0, 0, 0, 0.1);
+  width : 300px;
+}
+.connection-section form {
+  display : flex;
+  flex-direction : column;
+}
+.connection-section label {
+  margin-bottom : 5px;
+  color : $white-700;
+}
+.connection-section input {
+  padding : 10px;
+  margin-bottom : 20px;
+  border : 1px solid $white-300;
+  border-radius : 4px;
+}
+.connection-section button {
+  padding : 10px;
+  background : $blue-gradient;
+  color : $white-primary;
+  border : none;
+  border-radius : 4px;
+  cursor : pointer;
+}
+.connection-section button:hover {
+  background-color : darken($blue-600, 15%);
+}
+
+footer {
+  color : $white-600;
+
+}

@@ -1,0 +1,65 @@
+#connection-page {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F1F1F1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  align-items: center; }
+
+nav {
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  background-color: #F1F1F1; }
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(135deg, #00629E 0%, #62B0FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 20px;
+  margin-bottom: 20%; }
+
+#create-account {
+  color: #474747;
+  margin: 20px;
+  margin-bottom: 40px; }
+
+.connection-section {
+  background-color: #F9F9F9;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; }
+
+.connection-section form {
+  display: flex;
+  flex-direction: column; }
+
+.connection-section label {
+  margin-bottom: 5px;
+  color: #474747; }
+
+.connection-section input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ABABAB;
+  border-radius: 4px; }
+
+.connection-section button {
+  padding: 10px;
+  background: linear-gradient(135deg, #00629E 0%, #62B0FF 100%);
+  color: #F1F1F1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.connection-section button:hover {
+  background-color: #003352; }
+
+footer {
+  color: #5E5E5E; }
+
+/*# sourceMappingURL=style.css.map */
