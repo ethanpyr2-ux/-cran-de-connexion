@@ -27,7 +27,7 @@ $blue-950: #001223;
 
 $blue-gradient: linear-gradient(135deg, $blue-600 0%, $blue-300 100%);
 
-
+// Styles connection page
 #connection-page {
   font-family : 'Poppins', sans-serif;
   background-color : $white-primary;
@@ -37,11 +37,21 @@ $blue-gradient: linear-gradient(135deg, $blue-600 0%, $blue-300 100%);
   margin : 0;
   align-items: center;
 }
+header {
+    display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: $white-primary;
+}
 nav {
   width : 100%;
   display : flex;
   margin: 10px;
   background-color: $white-primary;
+  opacity: 0.95;
 }
 .logo {
   font-family : 'Playfair Display', serif;
@@ -93,4 +103,82 @@ nav {
 footer {
   color : $white-600;
 
+}
+
+
+//style landing page
+
+#landing-page {
+  font-family : 'Poppins', sans-serif;
+  background-color : $white-primary;
+  display : flex;
+  flex-direction : column;
+  height : 100vh;
+  margin : 0;
+  align-items: center;
+}
+ .landing-section {
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+  justify-content: center;
+  height : 100%;
+}
+.landing-section h2 {
+  color : $white-900;
+  font-family : 'Playfair Display', serif;
+   background: $blue-gradient;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.landing-section p {
+  color : $white-700;
+  font-size : 18px;
+  margin : 20px;
+  text-align : center;
+  max-width : 600px;
+}
+#landing-page-image-container {
+  background-color: $white-primary;
+  overflow: hidden;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 50%;
+}
+.landing-image {
+  width: 100%;
+}
+
+
+.buttons {
+  display : flex;
+  gap : 20px;
+}
+ .btn {
+  padding : 10px 20px;
+  background : $blue-gradient;
+  color : $white-primary;
+  border : none;
+  border-radius : 4px;
+  cursor : pointer;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color : darken($blue-600, 15%);
+}
+
+.wave-landing-page {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+#landing-page-footer {
+  background-color : $blue-primary;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  color: $white-200;
 }
