@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuji</title>
+  <script src="https://kit.fontawesome.com/fd04468511.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body id="chat-page">
+  <header id="chat-header">
+    <button id="chat-back-btn"><i class="fa-solid fa-arrow-left"></i></button>
+    <h1 id="chat-title">Yuji</h1>
+      <div id="chat-profile-container">
+        <button id="chat-profile-btn"><img src="public/ppyuji.jpg" alt="Photo de profil" id="chat-profile-picture"></button>
+      </div>
+  </header>
+
+  <main>
+    <section id="chat-section">
+      <ul id="chat-message-list">
+        <li class="received-message">
+           <img src="public/ppyuji.jpg" alt="Photo de profil" class="chat-message-profile-picture">
+          <div class="chatbox-message">
+
+            <p class="chat-message-content">Salut tout le monde !</p>
+            </div>
+        </li>
+      </ul>
+    </section>
+    <section id="chat-message-input-section">
+      <input type="text" id="chat-message-input" placeholder="Tapez votre message...">
+      <button id="chat-send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+    </section>
+  </main>
+<script src="src/chat.js"></script>
+
+
+</body>
+</html>
