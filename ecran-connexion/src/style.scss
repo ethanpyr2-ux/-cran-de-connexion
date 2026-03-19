@@ -45,6 +45,7 @@ header {
   left: 0;
   z-index: 1000;
   background-color: $white-primary;
+
 }
 nav {
   width : 100%;
@@ -100,8 +101,14 @@ nav {
   background-color : darken($blue-600, 15%);
 }
 
-footer {
-  color : $white-600;
+.connection-page-footer {
+  position:absolute;
+  bottom:0;
+  background: linear-gradient(360deg, $blue-700 0%, $blue-primary 100%);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  color: $white-200;
 
 }
 
@@ -110,7 +117,8 @@ footer {
 
 #landing-page {
   font-family : 'Poppins', sans-serif;
-  background-color : $white-primary;
+  background-color: $white-primary;
+  //background : linear-gradient(45deg, $blue-50 0%, $white-primary 10%,$blue-50 20%, $white-primary 30%, $blue-50 40%, $white-primary 50%, $blue-50 60%, $white-primary 70%, $blue-50 80%, $white-primary 90%, $blue-50 100%);
   display : flex;
   flex-direction : column;
   height : 100vh;
@@ -127,10 +135,13 @@ footer {
 .landing-section h2 {
   color : $white-900;
   font-family : 'Playfair Display', serif;
+  font-size: 48px;
    background: $blue-gradient;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-left:10px;
+  margin-top: -100px;
 }
 .landing-section p {
   color : $white-700;
@@ -144,7 +155,8 @@ footer {
   overflow: hidden;
   width: 80%;
   max-width: 400px;
-  border-radius: 50%;
+  border-radius: 34% 66% 13% 87% / 28% 64% 36% 72% ;
+  margin: 20px;
 }
 .landing-image {
   width: 100%;
@@ -174,9 +186,10 @@ footer {
   left: 0;
   width: 100%;
   z-index: -1;
+
 }
 #landing-page-footer {
-  background-color : $blue-primary;
+  background: linear-gradient(360deg, $blue-700 0%, $blue-primary 100%);
   width: 100%;
   text-align: center;
   padding: 10px 0;

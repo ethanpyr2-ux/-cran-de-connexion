@@ -69,8 +69,14 @@ nav {
 .connection-section button:hover {
   background-color: #003352; }
 
-footer {
-  color: #5E5E5E; }
+.connection-page-footer {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(360deg, #004A79 0%, #009AF0 100%);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  color: #E2E2E2; }
 
 #landing-page {
   font-family: 'Poppins', sans-serif;
@@ -91,10 +97,13 @@ footer {
 .landing-section h2 {
   color: #1B1B1B;
   font-family: 'Playfair Display', serif;
+  font-size: 48px;
   background: linear-gradient(135deg, #00629E 0%, #62B0FF 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+  margin-left: 10px;
+  margin-top: -100px; }
 
 .landing-section p {
   color: #474747;
@@ -108,7 +117,8 @@ footer {
   overflow: hidden;
   width: 80%;
   max-width: 400px;
-  border-radius: 50%; }
+  border-radius: 34% 66% 13% 87%/28% 64% 36% 72%;
+  margin: 20px; }
 
 .landing-image {
   width: 100%; }
@@ -137,7 +147,7 @@ footer {
   z-index: -1; }
 
 #landing-page-footer {
-  background-color: #009AF0;
+  background: linear-gradient(360deg, #004A79 0%, #009AF0 100%);
   width: 100%;
   text-align: center;
   padding: 10px 0;
